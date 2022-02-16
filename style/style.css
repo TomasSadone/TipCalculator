@@ -1,0 +1,44 @@
+body{
+        margin: 0; height: 100vh; overflow: hidden;
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+}
+
+#logo{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* es una de las cosas que tengo que cambiar via media querry */
+}
+
+#main-section{
+    background-color: white;
+
+    width: 60%;
+    height: 55vh;
+    margin: 8vh auto;
+    padding : 20px;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: row;
+}
+#main-section > *{
+    flex-basis: 100%;
+}
+
+#left-half{
+    padding: 20px;
+}
+.p-left{
+    font-weight: 700;
+    font-size: 1em;
+    color: hsl(186, 14%, 43%);
+}
+
+#right-half{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+}

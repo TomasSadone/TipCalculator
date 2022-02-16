@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style2.css">
+
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <div id="logo">
+    <img src="images/logo.svg" ></img>
+  </div>
+
+  <section id="main-section">
+    <div id="left-half">
+      <div class="main-divs">
+        <div class="alerts">
+          <p class="p-left">Bill</p>
+          <p id="cant-b-z-bill">Can't be zero</p>
+        </div>
+          <div class="input-wrapper">
+            <input id="bill" type="number" placeholder="0" >
+            <img src="images/icon-dollar.svg">
+        </div>
+      </div>
+
+      <p class="p-left">Select Tip %</p>
+      <div class="main-divs" id="button-grid">
+        <button id="five">5%</button>
+        <button id="ten">10%</button>
+        <button id="fifteen">15%</button>
+        <button id="twenty-five">25%</button>
+        <button id="fifty">50%</button>
+        <input id="custom" type="number" placeholder="Custom">
+      </div>
+
+      <div class="main-divs">
+
+        <div class="alerts">
+          <p class="p-left">Number of People</p>
+          <p id="cant-b-z-people">Can't be zero</p>
+        </div>
+
+        <div class="input-wrapper">
+          <input id="number-of-people" type="number" placeholder="0">
+          <img src="images/icon-person.svg">
+        </div>
+
+       </div>  
+    </div>
+
+    <div id="right-half">
+      <div class="text-right-half">
+        <p>Tip Amount<br><span>/ person</span></p> 
+      </div>
+
+      <div class="result-numbers">
+        <p  id="tip-number"> $0.00</p>
+      </div>
+
+      <div class="text-right-half">
+        <p>Total<br><span>/ person</span></p> 
+      </div>
+
+      <div class="result-numbers">
+        <p id="total-number">$0.00</p>
+      </div>
+
+      <div class="reset-span">
+        <button  id="reset" class="reset" >RESET</button>
+      </div>
+
+    </div>    
+ 
+  </section4>
+</body>
+<script src="scripts\scripts.js"></script>
+
+</html>
